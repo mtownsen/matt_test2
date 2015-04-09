@@ -1,4 +1,5 @@
 ActiveAdmin.register Listing do
+  permit_params :title, :description, :issold, :price
 
 
   # See permitted parameters documentation:
